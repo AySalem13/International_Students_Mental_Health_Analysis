@@ -80,15 +80,15 @@ So I checked the sample sizes.
 
 I went back to run a new query to check back the sample size: 
 
-SELECT stay, COUNT(*) AS count_int
+>SELECT stay, COUNT(*) AS count_int
 
-FROM students
+>FROM students
 
-WHERE inter_dom = 'Inter'
+>WHERE inter_dom = 'Inter'
 
-GROUP BY stay
+>GROUP BY stay
 
-ORDER BY stay;
+>ORDER BY stay;
 
 The results: Years 1–4 → LARGE number of students / Years 5–10 → only 1–3 students per category
 
