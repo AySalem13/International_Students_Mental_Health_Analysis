@@ -92,10 +92,15 @@ This immediately told me that anything that happens after year 5 is probably noi
 So I focused my analysis on the reliable portion of the data. I added a filter on PowerBI to show only Stay <= 4 and got the following line charts, which made me see a clear trend 
 from eachh line chart and answered the questions I have: 
 The PHQ-9 (depression) had an upwards trend
+
 <img width="527" height="293" alt="image" src="https://github.com/user-attachments/assets/1d0ee414-a858-4ab9-86c6-751ebbaea9ed" />
+
 The Acculturative stress had an upwards trend
+
 <img width="525" height="292" alt="image" src="https://github.com/user-attachments/assets/55a1fc47-a7df-4d45-a52e-fc8c21fa8069" />
+
 The Social connectedness had a downward trend 
+
 <img width="527" height="286" alt="image" src="https://github.com/user-attachments/assets/34f8108c-092d-43ad-9b2e-74993fcfc0ec" />
 
 I could see that both the PHQ and AS both move in the same direction over the years which sugggests that depression and stress may be related.
