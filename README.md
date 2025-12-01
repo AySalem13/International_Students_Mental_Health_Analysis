@@ -1,4 +1,4 @@
-# Mental Health & Length of Stay
+# 🧩 Analyzing Students Mental Health & Length of Stay
 
 This is a small practice project where I used **PostgreSQL** and **Power BI** to explore how the length of stay in a foreign country might relate to mental health outcomes for international university students.
 
@@ -69,7 +69,7 @@ I created three line charts:
 
 <img width="527" height="289" alt="image" src="https://github.com/user-attachments/assets/6d2ae152-4c20-4367-ab6b-2730436ed4a3" />
 
-🧠 Initial observation
+🧠 Initial observation:
 
 The lines showed patterns, but there were always some strange spikes/drops after year 5.
 That made me wonder “Is the data actually reliable for those years?”
