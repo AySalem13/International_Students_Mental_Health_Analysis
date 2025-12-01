@@ -2,7 +2,7 @@
 
 This is a small practice project where I used **PostgreSQL** and **Power BI** to explore how the length of stay in a foreign country might relate to mental health outcomes for international university students.
 
-Instead of just dropping code, this README walks through my **step-by-step process** and what I was thinking at each stage.
+I have included any queries and sheets I have used in seperate files, this README walks through my **step-by-step process** and what I was thinking at each stage of the project.
 
 ---
 
@@ -23,19 +23,19 @@ The dataset included:
 - `stay` – current length of stay (years)  
 - `inter_dom` – whether the student is international or domestic
 
-The original study suggested:
+My goal in this project is to prove these ideas using SQL and PBI:
 
 - international students are at higher mental health risk  
-- **social connectedness** is linked to lower depression  
-- **acculturative stress** is linked to higher depression
+- **social connectedness** may linked to lower depression  
+- **acculturative stress** may linked to higher depression
 
-My goal here was not to “prove” anything, but to see if the **patterns in this dataset** look similar.
+I approached the dataset with these questions in mind and used the results to see whether the patterns in the data support them.
 
 ---
 
 ## 📌 Step 2 – Focusing on the right population
 
-Because the research question is about international students, the first decision was:
+Because the question is about international students, the first decision was:
 
 > Filter the data to **international students only**.
 
@@ -110,12 +110,11 @@ The Social connectedness had a downward trend
 
 <img width="527" height="286" alt="image" src="https://github.com/user-attachments/assets/34f8108c-092d-43ad-9b2e-74993fcfc0ec" />
 
-From the reliable years (1-4), I noticed that PHQ (depression) and AS (acculturative stress) both increase as the length of stay increases, which suggests that higher stress may be linked to higher
-depression scores. On the other hand, SCS (social connectedness) decreases over the same period, and since it moves in the opposite direction of PHQ, it suggests that feeling less socially connected may be 
-related to higher depression. 
+From the reliable years (1–4), I noticed that PHQ (depression) and AS (acculturative stress) both increase as the length of stay increases, which suggests that higher stress may be linked to higher depression 
+scores. On the other hand, SCS (social connectedness) decreases over the same period, and since it moves in the opposite direction of PHQ, it suggests that feeling less socially connected may be related to 
+higher depression.
 
-These patterns match the general ideas from the original study, and they show how stress, connectedness, and depression can move together in predictable ways. Even though I avoided making conclusions from the 
-small samples after year 5, the trends in years 1–4 were clear enough to show meaningful relationships between the three mental health indicators.
+Even though I avoided making conclusions from the small samples after year 5, the trends in years 1–4 were clear enough to show meaningful relationships between the three mental health indicators
 
 Overall, this small project helped me understand how to break down a dataset, question the reliability of certain values, focus on the stable parts of the data, and spot meaningful patterns without 
-overinterpreting the noisy ones. It also showed how SQL and Power BI together can reveal connections that match what previous studies have found.
+overinterpreting the noisy ones. It also showed how SQL and Power BI together can reveal connections that emerge naturally when the data is explored carefully.
