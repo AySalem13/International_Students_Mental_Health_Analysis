@@ -47,8 +47,11 @@ In SQL terms, that means:
 To understand how mental health changes with length of stay, I grouped the data by stay and calculated:
 
 -number of international students at each stay length
+
 -average depression score (PHQ-9)
+
 -average social connectedness score
+
 -average acculturative stress score
 
 The added the SQL query in its own file in this repository. I then exported the result and took it to Power BI for better analysis.
